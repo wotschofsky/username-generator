@@ -1,0 +1,31 @@
+{
+   "name": "username-generator",
+   "version": "1.0.0",
+   "description": "An actually useful username generator",
+   "author": "Felix Wotschofsky",
+   "private": true,
+   "scripts": {
+      "dev": "nuxt",
+      "build": "nuxt build",
+      "start": "nuxt start",
+      "generate": "nuxt generate",
+      "functions": "cd functions && npm run serve"
+   },
+   "dependencies": {
+      "@mdi/font": "^3.6.95",
+      "@nuxtjs/axios": "^5.4.1",
+      "build-url": "^1.3.2",
+      "cross-env": "^5.2.0",
+      "flag-icon-css": "^3.3.0",
+      "nuxt": "^2.4.0",
+      "vuetify": "^1.5.5",
+      "vuetify-loader": "^1.2.1"
+   },
+   "devDependencies": {
+      "node-sass": "^4.11.0",
+      "nodemon": "^1.18.9",
+      "sass-loader": "^7.1.0",
+      "stylus": "^0.54.5",
+      "stylus-loader": "^3.0.2"
+   }
+}
