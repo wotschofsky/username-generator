@@ -14,7 +14,7 @@
    "dependencies": {
       "@mdi/font": "^5.3.45",
       "@nuxtjs/axios": "^5.4.1",
-      "build-url": "^2.0.0",
+      "build-url": "^6.0.1",
       "cross-env": "^7.0.2",
       "flag-icon-css": "^3.3.0",
       "nuxt": "^2.4.0",
@@ -24,7 +24,7 @@
    "devDependencies": {
       "node-sass": "^4.11.0",
       "nodemon": "^2.0.4",
-      "sass-loader": "^8.0.2",
+      "sass-loader": "^10.0.2",
       "stylus": "^0.54.5",
       "stylus-loader": "^3.0.2"
    }
