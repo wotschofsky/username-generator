@@ -12,11 +12,11 @@
       "functions": "cd functions && npm run serve"
    },
    "dependencies": {
-      "@mdi/font": "^5.3.45",
+      "@mdi/font": "^6.5.95",
       "@nuxtjs/axios": "^5.4.1",
       "build-url": "^6.0.1",
       "cross-env": "^7.0.2",
-      "flag-icon-css": "^3.3.0",
+      "flag-icon-css": "^4.1.7",
       "nuxt": "^2.4.0",
       "vuetify": "^1.5.5",
       "vuetify-loader": "^1.2.1"
