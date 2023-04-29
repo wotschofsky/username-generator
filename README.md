@@ -1,26 +1,38 @@
-# username-generator
+# create-svelte
 
-> A username generator that spits out truly random usernames
+Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
-Made using Vue and Vuetify wrapped by Nuxt
-[Live demo](https://name-generator.felisk.io/)
+## Creating a project
 
+If you're seeing this, you've probably already done this step. Congrats!
 
-## Build Setup
+```bash
+# create a new project in the current directory
+npm create svelte@latest
 
-``` bash
-# install dependencies
-$ yarn install
-
-# serve with hot reload at localhost:3000
-$ yarn run dev
-
-# build for production and launch server
-$ yarn run build
-$ yarn start
-
-# generate static project
-$ yarn run generate
+# create a new project in my-app
+npm create svelte@latest my-app
 ```
 
-For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+## Developing
+
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+
+```bash
+npm run dev
+
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
+```
+
+## Building
+
+To create a production version of your app:
+
+```bash
+npm run build
+```
+
+You can preview the production build with `npm run preview`.
+
+> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.

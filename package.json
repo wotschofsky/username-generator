@@ -1,31 +1,43 @@
 {
-   "name": "username-generator",
-   "version": "1.0.0",
-   "description": "An actually useful username generator",
-   "author": "Felix Wotschofsky",
-   "private": true,
-   "scripts": {
-      "dev": "nuxt",
-      "build": "nuxt build",
-      "start": "nuxt start",
-      "generate": "nuxt generate",
-      "functions": "cd functions && npm run serve"
-   },
-   "dependencies": {
-      "@mdi/font": "^6.5.95",
-      "@nuxtjs/axios": "^5.4.1",
-      "build-url": "^6.0.1",
-      "cross-env": "^7.0.2",
-      "flag-icon-css": "^4.1.7",
-      "nuxt": "^2.4.0",
-      "vuetify": "^1.5.5",
-      "vuetify-loader": "^1.2.1"
-   },
-   "devDependencies": {
-      "node-sass": "^7.0.1",
-      "nodemon": "^2.0.4",
-      "sass-loader": "^10.0.2",
-      "stylus": "^0.56.0",
-      "stylus-loader": "^3.0.2"
-   }
+	"name": "username-generator",
+	"version": "2",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+		"lint": "prettier --plugin-search-dir . --check . && eslint .",
+		"format": "prettier --plugin-search-dir . --write ."
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/kit": "^1.5.0",
+		"@typescript-eslint/eslint-plugin": "^5.45.0",
+		"@typescript-eslint/parser": "^5.45.0",
+		"autoprefixer": "^10.4.7",
+		"eslint": "^8.28.0",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-plugin-svelte3": "^4.0.0",
+		"postcss": "^8.4.14",
+		"postcss-load-config": "^4.0.1",
+		"prettier": "^2.8.0",
+		"prettier-plugin-svelte": "^2.8.1",
+		"svelte": "^3.54.0",
+		"svelte-check": "^3.0.1",
+		"svelte-preprocess": "^4.10.7",
+		"tailwindcss": "^3.1.5",
+		"tslib": "^2.4.1",
+		"typescript": "^5.0.0",
+		"vite": "^4.3.0"
+	},
+	"dependencies": {
+		"@popperjs/core": "^2.11.7",
+		"classnames": "^2.3.2",
+		"flowbite": "^1.6.5",
+		"flowbite-svelte": "^0.34.9",
+		"svelte-feather-icons": "^4.0.0"
+	}
 }
